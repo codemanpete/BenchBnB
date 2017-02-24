@@ -16,8 +16,8 @@ document.addEventListener('DOMContentLoaded', () => {
     store = configureStore();
   }
 
-  // window.store = store;
-  // window.fetchBenches = fetchBenches;
+  window.store = store;
+  window.fetchBenches = fetchBenches;
   // store.dispatch(fetchBenches()).then(console.log);
 
   const root = document.getElementById('root');
